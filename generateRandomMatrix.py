@@ -45,7 +45,7 @@ def generateRandomMatrix(directory):
 
           value = int(80*40000*randMatrix[j, k])
           characterNum = value%(80)
-          lineNum = int(value/40000) 
+          lineNum = int(value/80) 
 
           if i == 0 and characterNum == 0:
             continue
